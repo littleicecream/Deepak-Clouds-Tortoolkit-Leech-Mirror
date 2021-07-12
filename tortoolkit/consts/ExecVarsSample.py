@@ -6,12 +6,12 @@ except:
         # TODO optimize for vps use fully - currently only heroku is focused
         # Set true if its VPS [currently not fully working]
         IS_VPS = False
-        API_HASH = os.environ.get("API_HASH")
-        API_ID = int(os.environ.get("API_ID"))
-        BOT_TOKEN = os.environ.get("BOT_TOKEN")
-        BASE_URL_OF_BOT = os.environ.get("BASE_URL")
+        API_HASH = os.environ.get("d692515312741702751ad5525dbd91c3")
+        API_ID = int(os.environ.get("2469678"))
+        BOT_TOKEN = os.environ.get("1710176648:AAGOcg8KHUbAvxwvPN13wXiR1L4tYzNqA88")
+        BASE_URL_OF_BOT = os.environ.get("http://t.me/tiantaobot")
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = [871967943,1291911714,755983475,1282644258,-1001348584170]
+        ALD_USR = [-521884514]
         
         # Time to wait before edit message
         EDIT_SLEEP_SECS = 5
@@ -29,7 +29,7 @@ except:
         REMAINING_STR = "▱"
 
         # DB URI for access
-        DB_URI = os.environ.get("DATABASE_URL")
+        DB_URI = os.environ.get("postgres://vtyzwkjrqvepzc:62851de1473c8374d13a8f9895a74c7e1b6c062191cfc71b7586faf6ff3a5788@ec2-54-227-246-76.compute-1.amazonaws.com:5432/d7e3jc23sja5p8")
         
         # The base direcory to which the files will be upload if using RCLONE
         RCLONE_BASE_DIR = "/"
