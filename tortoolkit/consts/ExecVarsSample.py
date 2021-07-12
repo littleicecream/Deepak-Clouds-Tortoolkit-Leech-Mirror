@@ -9,7 +9,7 @@ except:
         API_HASH = os.environ.get("d692515312741702751ad5525dbd91c3")
         API_ID = int(os.environ.get("2469678"))
         BOT_TOKEN = os.environ.get("1710176648:AAGOcg8KHUbAvxwvPN13wXiR1L4tYzNqA88")
-        BASE_URL_OF_BOT = os.environ.get("tiantao.herokuapp.com")
+        BASE_URL_OF_BOT = os.environ.get("https://tiantao.herokuapp.com")
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
         ALD_USR = [-521884514]
         
